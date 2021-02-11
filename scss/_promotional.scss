@@ -1,0 +1,24 @@
+.promotional{
+	background: url(../img/promotional.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+.container{
+	padding: 16rem 5rem 6.5rem 5rem;
+	text-align: center;
+h2{
+	color: #222222;
+	font: 2.4rem $font-title;
+	text-transform: uppercase;
+	margin-bottom: 4.5rem;
+}
+p{
+	font: 2.1rem/2.5rem $font-text2;
+	margin-bottom: 5rem;
+}
+.group-link .link-color{
+	margin-left: 1.05rem;
+    margin-right: 1.05rem;
+}
+}
+}

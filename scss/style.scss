@@ -1,0 +1,116 @@
+@import "fonts";
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 20px;
+}
+.wrapper{
+	overflow-x: hidden;
+	min-width: 320px;
+	color:  #fff;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-family: $font-title;	
+}
+a{
+	text-decoration: none;
+}
+input[type="button"]{
+     -webkit-appearance: none;
+     border-radius: 0;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1280px;
+}
+.button{
+	display: inline-block;
+	border-radius: 2.5rem;
+	padding: 0.6rem 4.75rem 0.6rem 4.75rem;
+	text-transform: uppercase;
+	font: 1.5rem $font-title;
+	white-space: nowrap;
+	position: relative;
+}
+.link-color{
+	color: #fff;
+	background: #47a226;
+	padding: 0.6rem 2.85rem 0.6rem 5.75rem;
+	margin-bottom: 0.75rem;
+&:hover{
+	background: #8bc34a;
+}
+&:hover>img{
+	-webkit-transform: scale(1.2);
+	    -ms-transform: scale(1.2);
+	        transform: scale(1.2);
+}
+img{
+	position: absolute;
+	left: 3.15rem;
+	top: 0.75rem;
+}
+}
+h4{
+	text-align: center;
+	font: 1.5rem $font-text;
+	padding: 1rem 0;
+}
+@media screen and (max-width: 570px){
+.button,
+.link-color{
+	font-size: 1rem;
+img{
+	top: 0.4rem;
+	left: 2.5rem;
+}
+}
+h4{
+	font-size: 1rem;
+}
+}
+@media screen and (max-width: 469px){
+.button{
+	padding-left: 4.9rem;
+	padding-right: 4.9rem;
+}
+.link-color{
+	padding-left: 4.9rem;
+	padding-right: 2rem;
+}
+}
+@media screen and (max-width: 410px){
+.button{
+	font-size: 0.8rem;
+	padding-left: 3.5rem;
+	padding-right: 3.5rem;
+}
+.link-color{
+	font-size: 0.8rem;
+	padding-left: 3.5rem;
+	padding-right: 1.5rem;
+img{
+	left: 1.9rem;
+	width: 25px;
+	height: 26px;
+}
+&:last-child img{
+	width: 22px;
+	height: 30px;
+}
+}
+h4{
+	font-size: 0.8rem;
+}
+}
+@import "header";
+@import "transform";
+@import "start";
+@import "learnmore";
+@import "train";
+@import"reviews";
+@import"promotional";
+@import"footer";
+@import "media";

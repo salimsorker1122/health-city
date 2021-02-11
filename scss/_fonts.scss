@@ -1,0 +1,33 @@
+@font-face {font-family: "MyriadProRegular";
+ 	font-display: swap;
+    src: url("fonts/MyriadPro-Regular.woff2") format("woff2");
+    src: url("../fonts/MyriadPro-Regular.woff") format("woff"),
+    url("../fonts/MyriadPro-Regular.ttf") format("truetype"),
+    url("../fonts/MyriadPro-Regular.svg#Myriad Pro") format("svg");
+    font-display: swap;
+}
+@font-face {font-family: "SegoeUIBold";
+	font-display: swap;
+    src: url("../fonts/SegoeUIBold.woff2") format("woff2");
+    src: url("../fonts/SegoeUIBold.woff") format("woff"),
+    url("../fonts/SegoeUIBold.svg#Myriad Pro") format("svg");
+
+}
+@font-face {font-family: "SegoeUIRegular";
+	font-display: swap;
+    src: url("../fonts/SegoeWP.woff2") format("woff2");
+    src:url("../fonts/SegoeWP.woff") format("woff"),
+    url("../fonts/SegoeWP.ttf") format("truetype"),
+    url("../fonts/SegoeWP.svg#Segoe UI Symbol") format("svg");
+}
+@font-face {font-family: "MyriadProBoldItalic";
+    font-display: swap;
+    src: url("../fonts/MyriadProBoldItalic.woff2") format("woff2");
+    src:url("../fonts/MyriadProBoldItalic.woff") format("woff"),
+    url("../fonts/MyriadProBoldItalic.ttf") format("truetype"),
+    url("../fonts/MyriadProBoldItalic.svg#Segoe UI Symbol") format("svg");
+}
+$font-title: "SegoeUIBold", sans-serif;
+$font-text2: "SegoeUIRegular", sans-serif;
+$font-text: "MyriadProRegular", sans-serif;
+$font-reviews: "MyriadProBoldItalic", sans-serif;

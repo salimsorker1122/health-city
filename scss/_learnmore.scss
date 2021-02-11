@@ -1,0 +1,118 @@
+.learnmore{
+	padding-bottom: 4rem;
+	color: #000;
+h2{
+	font: 2.1rem $font-text;
+	text-align: center;
+	margin-bottom: 8rem;
+}
+.slider{
+	max-width: 720px;
+	width: 100%;
+	margin-top: 4.02rem;
+&:before{
+	content: "";
+	position: absolute;
+	width: 300%;
+	height: 2.7rem;
+	top: 0.5rem;
+	left: -300%;
+	background: #afafaf;
+}
+
+h3{	
+	position: relative;
+	padding: 1rem 2.5rem 0 0;
+	margin-bottom: 4rem;
+	font: 1.25rem $font-title;
+	letter-spacing: 0.5rem;
+	text-transform: uppercase;
+	z-index: 2;
+	white-space: nowrap;
+	text-align: end;
+&:after{
+	content:"";
+	position: absolute;
+	top: 0.5rem;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 0 5rem 5rem 0;
+	background: #afafaf;
+	z-index: -1;
+}
+}
+.slider-img{
+	float: left;
+	max-width: 10rem;
+	width: 100%;
+	height: 10rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-radius: 50%;
+	border: 0.05rem solid #aec6a5;
+	margin: 0 1.5rem 0 7.25rem;
+}
+p{
+	display: flex;
+	font-family: $font-text;
+	line-height: 2rem;
+	margin-left: 7.25rem;
+}
+.slick-dots{
+	bottom: -6rem;
+li{
+	margin: 0 0.75rem;
+}
+}
+.slick-dots li button:before{
+	content:"";
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 50%;
+	background: #5f675c;
+	opacity: 1;
+}
+.slick-dots li.slick-active button:before{
+	width: 1.3rem;
+	height: 1.3rem;
+	border-radius: 50%;
+	border: 0.1rem solid #5f675c;
+	background: #fff;
+	bottom: 0;
+	top: -6px;
+	left: -6px;
+}
+}
+.phone-learnmore{
+	position: relative;
+    top: -24rem;
+    right: -39rem;
+.img-frame{
+	position: relative;
+	width: 18.85rem;
+	height: 37.6rem;
+}
+.learnmore-image{
+	position: absolute;
+    overflow: hidden;
+    text-align: center;
+    width: 17.55rem;
+	height: 34.7rem;
+    border-radius: 3rem;
+    padding-left: 0.6rem;
+    padding-top: 2.5rem;
+    background: #f1f2f1;
+img{
+ 	width: 92%;
+ }
+}
+}
+}

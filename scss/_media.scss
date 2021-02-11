@@ -1,0 +1,432 @@
+//header
+@media screen and (max-width: 1151px){
+.phone{
+	right: 2.5rem;
+ .bg-top{
+	width: 444px;
+	height: auto;
+	top: 10rem;
+	z-index: 1;
+}
+}
+}
+@media screen and (max-width: 834px){
+.top-block .container{
+	padding-bottom: 30.85rem;
+h2{
+	max-width: 100%;
+}
+}
+.top-block .container h3{
+	max-width: 100%;
+	margin-bottom: 2rem;
+}
+.phone{
+	top: 30.85rem;
+	right: 7rem;
+.img-frame{
+	width: 14.13rem;
+	height: 28.2rem;
+}
+.bg-fon{
+	width: 14rem;
+    height: 27.2rem;
+    padding-top: 0.5rem;
+    padding-left: 0;
+}
+.bg-top{
+	top: 5rem;
+}
+}
+.top-block .container .enhance-link{
+	width: calc(100% - 6px);
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 1.5rem;
+}
+}
+@media screen and (max-width: 671px){
+.phone{
+	top: 32.85rem;
+}
+}
+@media screen and (max-width: 520px){
+.top-block .container{
+h2{
+	font-size: 2rem;
+}
+h3{
+	font-size: 1.8rem;
+}
+} 
+.phone{
+	left: auto;
+	right: 2rem;
+}
+}
+@media screen and (max-width: 440px){
+.top-block .container{
+padding: 1rem 1rem 30.85rem 1rem;
+h1{
+	font-size: 1rem;
+	letter-spacing: 0.2rem;
+}
+}
+.phone{
+	right: 1rem;
+}
+}
+
+//transform
+
+@media screen and (max-width: 1151px){
+.transform {
+.transform-bg{
+	left: -17rem;
+}
+.transform-block{
+	padding-top: 12rem;
+	margin-left: 38%;
+}
+}
+}
+@media screen and (max-width: 834px){
+.transform {
+.transform-bg{
+	left: -27rem;
+}
+.transform-block{
+	margin-left: 17%;
+}
+}
+}
+@media screen and (max-width: 780px){
+.transform {
+.transform-bg{
+	display: none;
+}
+.transform-block{
+	padding: 0 1.7rem;
+	margin: 5rem auto 0 auto;
+	height: 335px;
+	max-width: 100%;
+	text-align: center;
+p{
+	text-align: left;
+}
+}
+}
+}
+@media screen and (max-width: 400px){
+.transform {
+.transform-block{
+	height: 400px;	
+}
+}
+}
+
+//start
+
+@media screen and (max-width: 1106px){
+.start
+.container{
+div p{
+	width: 22rem;
+}
+}
+}
+@media screen and (max-width: 1020px){
+.start{
+.container{
+	padding: 5rem 1.7rem 7rem 1.7rem;
+div{
+p{
+	width: 100%;
+}
+.bg-start{
+	background-size: cover;
+	width: 510px;
+	height: 403px;
+	top: 10rem;
+	right: -11rem;
+}
+.bg-weights{
+	width: 17rem;
+    height: 12.7rem;
+    background-size: cover;
+    left: 0;
+    bottom: -13rem;
+}
+}
+}
+}
+}
+@media screen and (max-width: 706px){
+.start{
+.container{
+	padding-bottom: 20rem;
+div{
+.bg-start{
+ 	top: auto;
+	bottom: -20rem;
+    right: -9rem;
+}
+.grop-link{
+	align-items: center;
+}
+.bg-weights{
+   	bottom: -28rem;
+}
+h4{
+	margin-left: 0;
+}
+}
+}
+}
+}
+@media screen and (max-width: 520px){
+.start{
+.container{
+	margin-bottom: 9rem;
+	margin-top: 19rem;
+	padding-bottom: 18rem;
+}
+}
+}
+
+@media screen and (max-width: 469px){
+.start .container div .grop-link .start-button{
+	padding: 0.6rem 3.3rem;
+}
+}
+@media screen and (max-width: 410px){
+.start .container div .grop-link .start-button{
+	font-size: 0.8rem;
+	padding: 0.6rem 2.3rem;
+}
+.start{
+div{
+.bg-start{
+	width: 353px;
+	height: 427px;
+	bottom: -21rem;
+}
+.bg-weights{
+    bottom: -24rem;
+}
+}
+}
+}
+
+//learnmore
+@media screen and (max-width: 1167px){
+.learnmore .container{
+h2{
+	margin-bottom: 4rem;
+}
+.slider{
+	max-width:100%;
+h3{
+	text-align: center;
+}
+.slider-img{
+	margin: 0 1rem 0 1.7rem;
+}
+.slick-dots{
+	bottom: -3rem;
+}
+p{
+	margin-left: 0;
+	padding-left: 1rem;
+	padding-right: 1.7rem;
+}
+}
+.phone-learnmore{
+	top: 6rem;
+	right: auto;
+	max-width: 377px;
+	margin: auto;
+}
+}
+}
+@media screen and (max-width: 730px){
+.learnmore .slider h3{
+	white-space: normal;
+}
+}
+@media screen and (max-width: 648px){
+.learnmore .container .slider{
+.slider-img{
+	float: none;
+	text-align: center;
+	margin: auto;
+}
+p{
+	padding-left: 1.7rem;
+}
+}
+}
+@media screen and (max-width: 535px){
+.learnmore .container{
+	padding: 0 0rem 4rem 0rem;
+h2{
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 2.18rem;
+}
+.phone-learnmore{
+	max-width: 320px;
+.img-frame{
+	max-width: 320px;
+	height: auto;
+}
+.learnmore-image{
+	width: 305px;
+	height: auto;
+	padding-top: 2rem;
+	padding-left: 0.4rem;
+}
+}
+}
+.slick-dots li {
+    margin: 0 0.5rem;
+}
+}
+@media screen and (max-width: 480px){
+.learnmore .slider h3{
+	letter-spacing: 0.1rem;
+}	
+}
+
+//train
+@media screen and (max-width: 1167px){
+.train{
+.container{
+	margin-top: 4rem;
+.group-link .link-color{
+	margin-left: 0;
+	margin-right: 0;
+}
+}
+}
+}
+
+//reviews
+@media screen and (max-width: 1167px){
+.reviews .container{
+	padding: 5rem 5rem;
+p{
+	padding-left: 0;
+}
+}
+}
+@media screen and (max-width: 960px){
+.reviews .container{
+	padding: 3rem 1.7rem;
+}
+}
+@media screen and (max-width: 935px){
+.slider-reviews{
+.slick-list{
+	padding-bottom: 3rem;
+}
+}
+.reviews-block{
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+.reviews .container{
+.reviews-left,
+.reviews-right{
+	max-width: 100%;
+}
+.reviews-left{
+	padding-right: 3rem;
+}
+.reviews-right{
+	margin-top: 4rem;
+	padding-left: 2rem;
+}
+p{
+	line-height: 1.5rem;
+}
+}
+}
+@media screen and (max-width: 550px){
+.reviews .container {
+.reviews-left,
+.reviews-right{
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+.photo-reviews{
+	left: 100%;
+	top: 2rem;
+    margin-left: -4.75rem;
+&:before{
+	display: none;
+}
+}
+span{
+	right: 1rem;
+	bottom: auto;
+    top: 2rem;
+    left: auto;
+}
+}
+.reviews-left{
+	padding-right: 0;
+.photo-reviews{
+	-webkit-box-ordinal-group: 0;
+	    -ms-flex-order: -1;
+	        order: -1;
+}
+}
+.reviews-right{
+	margin-top: 1rem;
+	padding-left: 0;
+}
+}
+}
+
+
+//promotional
+@media screen and (max-width: 1151px){
+.promotional .container .group-link .link-color{
+	margin-left: 0;
+    margin-right: 0;
+}
+}
+@media screen and (max-width: 960px){
+.promotional .container{
+	padding: 6rem 1.7rem 5rem 1.7rem;
+}
+}
+@media screen and (max-width: 560px){
+.promotional .container{
+	padding: 4rem 1rem 4rem 1rem;
+h2{
+	margin-bottom: 2rem;
+	font-size: 1.8rem;
+}
+p{
+	margin-bottom: 1.8rem;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+}
+}
+}
+
+
+//footer
+@media screen and (max-width: 560px){
+.footer .container{
+	padding: 2rem 2rem 1rem 2rem;
+.link-footer{
+img{
+	width: 247px;
+	height: 87px;
+}
+}
+}
+}

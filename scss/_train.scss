@@ -1,0 +1,29 @@
+.train{
+.container{
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin: -25rem auto 6.05rem auto;
+}
+.link-train{
+	border: 0.05rem solid #47a226;
+	background: #fff;
+	color: #47a226;
+&:hover{
+	border: 0.05rem solid transparent;
+	background:  #47a226;
+	color: #fff;
+}
+}
+h4{
+	text-transform: none;
+}
+h2{
+ font-size: 1.25rem;
+ margin: 1.05rem 1rem 2.5rem 1rem;
+}
+.group-link .link-color{
+	margin-left: 1.05rem;
+	margin-right: 1.05rem;
+}
+}

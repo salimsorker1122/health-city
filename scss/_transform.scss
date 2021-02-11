@@ -1,0 +1,36 @@
+.transform{
+	position: relative;
+	font-family:  $font-text;
+	z-index: 2;
+.transform-bg{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	background: url(../img/bg-transform.jpg) no-repeat;
+	background-size: cover;
+	width: 32.3rem;
+	height: 1080px;
+	z-index: -1;
+}
+.transform-block{
+	max-width: 25.75rem;
+	padding: 16.35rem 1rem 0 0;
+	margin-left: 55%;
+	height: 424px;
+}
+h2{	
+	font-size: 2.1rem;
+	color: #47a226;
+	margin-bottom: 1.05rem;
+}
+h4{
+	color: #000;
+}
+p{
+	font-size: 1rem;
+	color: #000;
+	line-height: 2rem;
+	margin-bottom: 1.75rem;
+}
+}
